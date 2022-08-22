@@ -77,7 +77,7 @@ export const Signup = (props) => {
               <div className='mb-3 text-center ml-4'>
                 <Link style={{ color: 'rgba(130, 36, 227, 0.8)', fontSize: '32px', fontWeight: '700', paddingBottom: '300px' }} to="/">Chat App</Link>
               </div>
-              <p>Join gazillions of people online</p>
+              <p>Join and chat with your friends</p>
               <Form
                 name="basic"
                 initialValues={{ remember: true }}

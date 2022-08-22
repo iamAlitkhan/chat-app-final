@@ -64,7 +64,7 @@ export const Login = (props) => {
                           <Link style={{ color: 'rgba(130, 36, 227, 0.8)', fontSize: '32px', fontWeight: '700', paddingBottom: '300px' }} to="/">Chat App</Link>
                         </div>
                         <p className='mb-2' style={{ fontSize: '20px', fontWeight: '680', color: '#424553' }}>Welcome!</p>
-                        <p>Join gazillions of people online</p>
+                        <p>Join and chat with your friends</p>
                         <form onSubmit={submitHandler}>
                           <div className="floating-label-group mb-3">
                             <Input name='email' onChange={handleChange} size='small' placeholder="Email or Username" prefix={<UserOutlined />} />
