@@ -23,7 +23,7 @@ export const ChatBody = (props) => {
   const [file, setFile] = useState('');
   let ENDPOINT;
   if (process.env.NODE_ENV === 'production') {
-    ENDPOINT = "https://chat.herokuapp.com/";
+    ENDPOINT = "https://chat-app-kat.herokuapp.com/";
   }
   else {
     ENDPOINT = "http://localhost:8000";
